@@ -1,0 +1,42 @@
+for new project
+------------------------------
+1. git init
+2. git remote add origin https://github.com/username/repository.git
+
+for existing project
+------------------------------
+1. git clone git@github.com:username/repository.git
+
+
+for any changes made
+------------------------------
+1. git status
+2. git add .
+3. git commit -m "commit message"
+4. git push origin master
+
+for branching
+1. git checkout -b branch_name
+2. make changes
+3. git commit -m "commit message"
+4. git push origin branch_name
+
+for merging branches
+1. git checkout master
+2. git merge branch_name
+3. git push origin master
+
+for resolving conflicts
+1. open the conflicting files in your favorite text editor
+2. edit the conflicting lines
+3. save the file
+4. git add .
+5. git commit -m "commit message"
+6. git push origin master
+
+for deleting branches
+1. git branch -d branch_name
+2. git push origin :branch_name
+
+for pulling changes from remote
+1. git pull origin master
